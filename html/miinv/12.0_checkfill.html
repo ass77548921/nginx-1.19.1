@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MiINV神資電子發票加值中心</title>
+    <!-- 共用 -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="./css/bootstrap-customize.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-customize.css" />
+    <link rel="stylesheet" href="./css/headerstyle.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+
+
+    <style>
+        input[type=number] { 
+         -moz-appearance:textfield; 
+         }
+         input[type=number]::-webkit-inner-spin-button, 
+         input[type=number]::-webkit-outer-spin-button { 
+         -webkit-appearance: none; 
+         margin: 0; 
+         }
+        .front-images {
+
+            /*       Header圖片高度 */
+            min-height: 300px;
+            /*       Header圖片URL  */
+            background-image: url("./images/banner_bg_img/bg_img_4_case.png");
+        }
+
+        .case_container {
+            height: 100%;
+            /* padding-top: 100px; */
+            padding-bottom: 100px
+        }
+
+        .related_button {
+            font-size: 1.8rem;
+            height: 200px;
+            width: 100%;
+            border-width: 5px;
+            border-color: #C4E3E8;
+            color: #177588;
+        }
+
+        .related_button:hover {
+            background-color: #8AC5D1;
+            border-color: #177588;
+        }
+
+        .related_row {
+            height: 20%;
+            padding-bottom: 10px;
+        }
+
+        .related_col {
+            height: 100%;
+        }
+
+        .case_text_video {
+            color: #434343;
+        }
+
+        .case_subtitle {
+            color: #177588;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .case_text {
+            color: #6f6f6f;
+        }
+
+        .blue_index_title_case {
+            font-family: Microsoft JhengHei !important;
+            color: #00aecb;
+            padding: 10px;
+        }
+        .background-blue {
+         background-color: #F1F9FF;
+         
+         }
+        .wrap{
+            margin:0 auto;
+        }
+        .text{
+            text-align: center;
+        }
+        .box{
+            text-align: center;
+        }
+    </style>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+</head>
+
+<body>
+	<!-- chatbot start -->
+    <script src="./js/ChatBotController.js"></script>
+    <!-- chatbot end -->
+
+    <!--    Nav Bar -->
+    <script src="./js/header_rwd.js"></script>
+    <!--       Header標題名稱 -->
+    <div class="front-images front-title">
+        <hr class="hr_banner_title_top" />
+        <span class="signin_title">
+            發票查詢
+        </span>
+        <hr class="hr_banner_title_buttom" />
+    </div>
+
+    <div class="container case_container">
+        <!-- 發票查詢 -->
+        <h3 class="blue_index_title text-center mt-5">MiINV電子發票查詢服務</h3>
+        <div class="background-blue w-100">
+            <div class="container">
+                <div class="box" >
+                    <label for="number"><a style="color: red;">*</a>公司統一編號</label>
+                    <input type="number" name="number" id="number">
+                    <button id="next5" type="button" class="btn btn-primary activity_button">NEXT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript " src="./js/footer.js "></script>
+
+</body>
+
+</html>
