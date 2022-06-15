@@ -129,20 +129,42 @@
                 <div class="box" >
                     <label for="number"><a style="color: red;">*</a>公司統一編號</label>
                     <input type="number" name="number" id="number">
-                    <input type="button" name="register" value="註冊" onclick="window.location.href='./9.0_related.html'" >
+                    <input type="button" id="enter" name="register" value="註冊" >
                    
                 </div>
             </div>
         </div>
-        <table style="width:100%">
-            <tr>
-                <th>公司統編</th>
-                <th>公司名稱</th>
-                <th>發票開立日期</th>
-                <th>發票開立張數</th>
-            </tr>
-        </table>
     </div>
+<table style="width:100%">
+        <tr>
+            <th>公司統編</th>
+            <th>公司名稱</th>
+            <th>發票開立日期</th>
+            <th>發票開立張數</th>
+        </tr>
+</table>
+<script>     
+       let mysql=require('mysql');
+       
+       document.getElementById("enter").onclick = function(){
+
+            var id = document.getElementById("number").value;
+
+            var nid=document.createElement("nid");
+            var text_id = document.createTextNode(id);
+            nid.appendChild(text_id);
+
+            var tr=document.createElement("tr");
+            tr.appendChild(nid);
+            var table=document.getElementsByTagName("table")[0];
+            table.appendChild(tr);
+        };
+
+ 
+
+   
+
+</script>
     <script type="text/javascript " src="./js/footer.js "></script>
 
 </body>
