@@ -9,3 +9,20 @@
 2022/06/12 23:43:09 [error] 21112#20960: *15 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/"
 2022/06/13 01:08:31 [error] 8320#18368: *5 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/index.html"
 2022/06/13 01:08:55 [error] 8320#18368: *5 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/miinv/images/MiINV_video.mp4" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/images/MiINV_video.mp4 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/4.0_case.html"
+2022/06/14 22:00:26 [emerg] 11620#5396: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/14 22:00:27 [emerg] 17364#13876: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/14 22:00:27 [emerg] 5064#2428: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:38:36 [emerg] 4888#6252: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:45:35 [emerg] 15716#2584: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:45:37 [emerg] 17528#13984: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:50:11 [emerg] 12304#6620: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:51:01 [notice] 14728#18040: signal process started
+2022/06/15 14:51:01 [error] 14728#18040: OpenEvent("Global\ngx_reload_2364") failed (2: The system cannot find the file specified)
+2022/06/15 14:51:20 [notice] 984#10376: signal process started
+2022/06/15 14:51:20 [error] 984#10376: OpenEvent("Global\ngx_stop_2364") failed (2: The system cannot find the file specified)
+2022/06/15 14:51:56 [emerg] 18412#18012: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:52:14 [emerg] 10460#12328: CreateDirectory() "D:\project\nginx-1.19.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/15 14:52:21 [notice] 16460#8200: signal process started
+2022/06/15 14:52:21 [error] 16460#8200: OpenEvent("Global\ngx_reload_2364") failed (2: The system cannot find the file specified)
+2022/06/15 14:59:05 [notice] 4020#7120: signal process started
+2022/06/15 14:59:05 [error] 4020#7120: OpenEvent("Global\ngx_stop_2364") failed (2: The system cannot find the file specified)
