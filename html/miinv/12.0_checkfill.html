@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>MiINV神資電子發票加值中心</title>
@@ -8,6 +7,8 @@
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
+    
 
     <link rel="stylesheet" href="./css/bootstrap-customize.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -135,10 +136,14 @@
             </div>
         </div>
     </div>
-    <ul class="list-group" id="showCSV" >
-                    
-    </ul>
-<script>     
+    <div >
+        <h2>CSV File Data</h2>
+        <ul class="list-group" id="showCSV" >
+        
+        </ul>
+
+    </div>
+<!-- <script>     
        let mysql=require('mysql');
        
        document.getElementById("enter").onclick = function(){
@@ -159,7 +164,7 @@
 
    
 
-</script>
+</script>-->
     <script type="text/javascript " src="./js/footer.js "></script>
 
 </body>

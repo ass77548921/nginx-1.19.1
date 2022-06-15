@@ -1,4 +1,4 @@
-var csv_file_API = './data.csv';
+var csv_file_API = './js/data.csv';
 
 $(document).ready(function () {
   $.ajax({
@@ -24,25 +24,24 @@ $(document).ready(function () {
 
             $('#showCSV').append(
 
-                '<li class="list-group-item d-flex justify-content-between align-items-center">' + 
-                    
-                    '<span style="width: 15%; font-size: 1rem; font-weight: bold; color: #37474F">' +
-                        value['公司統編'] +
-                    '</span>' +
+                '<li class="list-group-item align-items-center">' + 
+                        
+                         
+                            value["公司統編"] +
+                         '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
 
-                    '<span style="width: 15%; font-size: 1rem;  color: #37474F">' +
-                        value['公司名稱'] +
-                    '</span>' +
+                         
+                            value["公司名稱"] +
+                            '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
 
-                    '<span style="width: 15%; font-size: 1rem;  color: #37474F">'  +
-                        value['發票開立月份'] +
-                    '</span>' +
+                          
+                            value["發票開立月份"] +
+                            '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
+                          
+                            value["發票開立張數"] +
+                         
 
-                    '<span style="width: 15%; font-size: 1rem;  color: #37474F">'  +
-                        value['發票開立張數'] +
-                    '</span>' +
-
-                '</li>'
+                    '</li>'
             );
 
         });

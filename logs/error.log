@@ -9,3 +9,103 @@
 2022/06/12 23:43:09 [error] 21112#20960: *15 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/"
 2022/06/13 01:08:31 [error] 8320#18368: *5 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/index.html"
 2022/06/13 01:08:55 [error] 8320#18368: *5 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/miinv/images/MiINV_video.mp4" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/images/MiINV_video.mp4 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/4.0_case.html"
+2022/06/15 15:23:40 [error] 13512#13584: *1 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/index.html"
+2022/06/15 15:23:51 [error] 13512#13584: *1 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/miinv/images/MiINV_video.mp4" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/images/MiINV_video.mp4 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/4.0_case.html"
+2022/06/15 15:25:44 [notice] 6952#5608: signal process started
+2022/06/15 15:26:10 [notice] 19160#14640: signal process started
+2022/06/15 15:26:29 [notice] 7192#19652: signal process started
+2022/06/15 15:26:29 [error] 7192#19652: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:26:33 [notice] 18644#20632: signal process started
+2022/06/15 15:26:33 [error] 18644#20632: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:27:29 [notice] 17700#15720: signal process started
+2022/06/15 15:27:29 [error] 17700#15720: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:27:30 [notice] 15160#988: signal process started
+2022/06/15 15:27:30 [error] 15160#988: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:27:32 [notice] 12972#6940: signal process started
+2022/06/15 15:27:32 [error] 12972#6940: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:27:36 [notice] 2432#2820: signal process started
+2022/06/15 15:27:36 [error] 2432#2820: CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 15:29:46 [error] 6028#15760: *1 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 15:29:49 [error] 6028#15760: *1 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/miinv/images/MiINV_video.mp4" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/images/MiINV_video.mp4 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/4.0_case.html"
+2022/06/15 15:38:38 [notice] 13192#4560: signal process started
+2022/06/15 15:42:51 [notice] 15388#6964: signal process started
+2022/06/15 15:44:25 [notice] 19448#19276: signal process started
+2022/06/15 15:47:21 [error] 20180#19480: *12 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/"
+2022/06/15 15:48:05 [notice] 13096#18624: signal process started
+2022/06/15 15:48:13 [error] 20180#19480: *12 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/"
+2022/06/15 15:51:06 [notice] 18980#9448: signal process started
+2022/06/15 15:51:11 [error] 20180#19480: *21 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 15:51:14 [error] 20180#19480: *21 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 15:51:20 [error] 20180#19480: *22 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 15:56:39 [notice] 19204#18212: signal process started
+2022/06/15 15:56:41 [error] 20180#19480: *25 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 15:57:20 [notice] 19840#2444: signal process started
+2022/06/15 15:57:25 [error] 20180#19480: *26 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:02:08 [notice] 14772#20484: signal process started
+2022/06/15 16:04:39 [notice] 7640#15992: signal process started
+2022/06/15 16:04:46 [error] 20180#19480: *37 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:05:19 [notice] 7536#18900: signal process started
+2022/06/15 16:05:29 [error] 20180#19480: *39 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:06:02 [notice] 7308#20908: signal process started
+2022/06/15 16:06:06 [error] 20180#19480: *38 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:08:01 [notice] 19220#12772: signal process started
+2022/06/15 16:08:04 [error] 20180#19480: *43 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:08:53 [notice] 5072#18620: signal process started
+2022/06/15 16:08:57 [error] 20180#19480: *44 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:09:03 [notice] 21344#12536: signal process started
+2022/06/15 16:09:23 [notice] 1892#7640: signal process started
+2022/06/15 16:09:27 [error] 20180#19480: *45 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:13:22 [notice] 7180#3300: signal process started
+2022/06/15 16:13:37 [error] 20180#19480: *51 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/12.0_checkfill.html"
+2022/06/15 16:53:50 [notice] 22392#22396: signal process started
+2022/06/15 16:54:05 [error] 20180#19480: *55 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/data.csv" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/data.csv HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/in.html"
+2022/06/15 16:57:48 [notice] 16572#20496: signal process started
+2022/06/15 16:57:52 [error] 20180#19480: *57 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/in.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/in.html HTTP/1.1", host: "127.0.0.1"
+2022/06/15 16:57:55 [error] 20180#19480: *57 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/js/load_csv.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /js/load_csv.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 16:59:00 [notice] 9628#7364: signal process started
+2022/06/15 16:59:02 [error] 20180#19480: *59 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/js/load_csv.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /js/load_csv.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:00:08 [notice] 21752#21240: signal process started
+2022/06/15 17:02:36 [notice] 15340#15612: signal process started
+2022/06/15 17:02:46 [notice] 20484#22468: signal process started
+2022/06/15 17:02:55 [notice] 22524#14184: signal process started
+2022/06/15 17:02:55 [error] 22524#14184: CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/15 17:03:18 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:20 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:55 [notice] 19496#19796: signal process started
+2022/06/15 17:03:57 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:57 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:03:58 [error] 20180#19480: *63 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:07:32 [notice] 19468#6364: signal process started
+2022/06/15 17:14:42 [notice] 22472#22824: signal process started
+2022/06/15 17:15:53 [notice] 7404#9784: signal process started
+2022/06/15 17:16:03 [error] 20180#19480: *71 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:21:08 [notice] 20820#22028: signal process started
+2022/06/15 17:25:19 [notice] 19544#21820: signal process started
+2022/06/15 17:27:57 [notice] 15000#21624: signal process started
+2022/06/15 17:27:59 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:27:59 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:00 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:39 [notice] 20112#7536: signal process started
+2022/06/15 17:28:42 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:43 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:43 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:43 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:43 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:44 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:44 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:28:44 [error] 20180#19480: *77 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/06/15 17:35:57 [notice] 9500#22952: signal process started
+2022/06/15 17:43:25 [notice] 12392#22428: signal process started
+2022/06/15 17:43:44 [error] 20180#19480: *80 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/i" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/i HTTP/1.1", host: "127.0.0.1"
+2022/06/15 17:43:48 [error] 20180#19480: *80 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
+2022/06/15 17:45:03 [notice] 19544#22248: signal process started
+2022/06/15 17:45:06 [error] 20180#19480: *82 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
+2022/06/15 17:45:55 [notice] 23196#20428: signal process started
+2022/06/15 17:45:56 [error] 20180#19480: *83 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
+2022/06/15 17:46:40 [notice] 8504#7536: signal process started
+2022/06/15 17:46:43 [error] 20180#19480: *82 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
