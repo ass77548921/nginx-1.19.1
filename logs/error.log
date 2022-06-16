@@ -109,3 +109,13 @@
 2022/06/15 17:45:56 [error] 20180#19480: *83 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
 2022/06/15 17:46:40 [notice] 8504#7536: signal process started
 2022/06/15 17:46:43 [error] 20180#19480: *82 CreateFile() "C:\Users\User\Downloads\nginx-1.19.1/html/miinv/style.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /miinv/style.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/i.html"
+2022/06/16 12:44:07 [notice] 7184#3920: signal process started
+2022/06/16 12:44:07 [error] 7184#3920: OpenEvent("Global\ngx_reload_4440") failed (2: The system cannot find the file specified)
+2022/06/16 14:06:05 [notice] 11324#4880: signal process started
+2022/06/16 14:06:05 [error] 11324#4880: OpenEvent("Global\ngx_reload_4440") failed (2: The system cannot find the file specified)
+2022/06/16 14:15:31 [notice] 24928#3304: signal process started
+2022/06/16 14:15:31 [error] 24928#3304: OpenEvent("Global\ngx_reload_4440") failed (2: The system cannot find the file specified)
+2022/06/16 14:29:23 [notice] 2024#23424: signal process started
+2022/06/16 14:29:23 [error] 2024#23424: OpenEvent("Global\ngx_reload_4440") failed (2: The system cannot find the file specified)
+2022/06/16 14:29:31 [notice] 19532#9240: signal process started
+2022/06/16 14:29:31 [error] 19532#9240: OpenEvent("Global\ngx_stop_4440") failed (2: The system cannot find the file specified)

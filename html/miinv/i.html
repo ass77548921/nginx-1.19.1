@@ -5,13 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>CSV-Excel 2 JSON Demo</title>
+        <title>Load CSV to HTML Demo</title>
 
-        <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="./style.css">
+        
         <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
         <!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
         <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script> -->
@@ -25,13 +25,17 @@
         <div>
 
             <div class="jumbotron" style="text-align: center;">
-                <h1 id="headerTitle">CSV & Excel 2 JSON Demo</h1>
+                <h1 id="headerTitle">Load CSV to HTML Demo</h1>
             </div>
 
             <div class="justify-content-center" style="width: 100%; padding: 0 8rem">
-
+                <div class="box" >
+                    <label for="number"><a style="color: red;">*</a>公司統一編號</label>
+                    <input type="number" name="number" id="number">
+                    <input type="button" id="enter" name="register" value="註冊" >
+                   
+                </div>
                 <div class="p-3" style="width:100hw; padding: 1rem">
-                    <h2>CSV File Data</h2>
                     <ul class="list-group" id="showCSV" >
                     
                     </ul>
@@ -45,7 +49,7 @@
 
         <!-- my script reference -->
         <script type="text/javascript" src="./js/load_csv.js"></script>
-
+        <script type="text/javascript" src="./js/select_csv.js"></script>
 
 
     </body>
