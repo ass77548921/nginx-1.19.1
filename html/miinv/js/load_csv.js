@@ -29,10 +29,10 @@ $(document).ready(function () {
             $.each(filterData, function (index, value) {
                 totalfill += parseInt(value["發票開立張數"]);
               
-                $('#showCSV').append(
+                $('#showCSV').hide().append(
                   
-                    '<td class="list-group-item" style="word-spacing:20px;text-align:left;padding-left:30%;'+
-                        ' fill '+ value["公司統編"] + '">'+
+                    '<td class="list-group-item fill" style="word-spacing:20px;text-align:left;padding-left:30%;">'+
+                        
                         
                     value["公司統編"] +
                     '&nbsp;'+
@@ -53,6 +53,7 @@ $(document).ready(function () {
             });
             if(filterData[1] !=null){
             $('#showCSV').append('<li class="list-group-item align-items-center fill">'+'總開立發票張數 ' +totalfill +'</li>')}
+            $('#showCSV').slideDown();
         });
         
 
