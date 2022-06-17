@@ -119,3 +119,4 @@
 2022/06/16 14:29:23 [error] 2024#23424: OpenEvent("Global\ngx_reload_4440") failed (2: The system cannot find the file specified)
 2022/06/16 14:29:31 [notice] 19532#9240: signal process started
 2022/06/16 14:29:31 [error] 19532#9240: OpenEvent("Global\ngx_stop_4440") failed (2: The system cannot find the file specified)
+2022/06/17 10:21:16 [error] 9812#14696: *6 CreateFile() "D:\nginx-1.19.1\nginx-1.19.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/miinv/"

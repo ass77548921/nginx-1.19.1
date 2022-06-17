@@ -2,16 +2,18 @@
 <html lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MiINV神資電子發票加值中心</title>
     <!-- 共用 -->
-    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
     
 
     <link rel="stylesheet" href="./css/bootstrap-customize.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-customize.css" />
@@ -19,9 +21,11 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
+    <script type="text/javascript" lang="javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.1/xlsx.full.min.js"></script>
     <style>
         input[type=number] { 
          -moz-appearance:textfield; 
@@ -98,10 +102,16 @@
             text-align: center;
         }
         .box{
-            text-align: center;
+            text-align:center;
+            padding: 10px;
         }
+        .test{
+            text-align: left;
+            
+            
+        background-color: white;
     </style>
-    <script src="./js/jquery-3.3.1.min.js"></script>
+    
     <script src="./js/bootstrap.js"></script>
 
 </head>
@@ -128,43 +138,36 @@
         <div class="background-blue w-100">
             <div class="container">
                 <div class="box" >
-                    <label for="number"><a style="color: red;">*</a>公司統一編號</label>
+                    <label for="number">公司統編</label>
                     <input type="number" name="number" id="number">
-                    <input type="button" id="enter" name="register" value="註冊" >
-                   
+                    <input type="button" id="enter" name="register" value="查詢" >
+                
+                <div class="box">
+                    <table class="list-group-item" style="word-spacing:20px ; text-align:left;padding-left:30%;">
+                    <tr>
+                    <td>公司統編&nbsp;&nbsp;</td>
+                    <td>公司名稱&nbsp;</td>
+                    <td>發票開立日期&nbsp;</td>
+                    <td>發票開立數量&nbsp;&nbsp;</td>
+                    </tr>
+                    <table ><ul class="list-group" id="showCSV" ></ul></table>
+                        
+                    </table>
                 </div>
+                </div>
+                
+                
+                    
+                    
+                    
+                
+            </div>
+            
             </div>
         </div>
     </div>
-    <div >
-        <h2>CSV File Data</h2>
-        <ul class="list-group" id="showCSV" >
-        
-        </ul>
-
-    </div>
-<!-- <script>     
-       let mysql=require('mysql');
-       
-       document.getElementById("enter").onclick = function(){
-
-            var id = document.getElementById("number").value;
-
-            var nid=document.createElement("nid");
-            var text_id = document.createTextNode(id);
-            nid.appendChild(text_id);
-
-            var tr=document.createElement("tr");
-            tr.appendChild(nid);
-            var table=document.getElementsByTagName("table")[0];
-            table.appendChild(tr);
-        };
-
- 
-
-   
-
-</script>-->
+    
+    <script type="text/javascript" src="./js/load_csv.js"></script>
     <script type="text/javascript " src="./js/footer.js "></script>
 
 </body>

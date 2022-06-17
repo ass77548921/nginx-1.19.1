@@ -25,25 +25,29 @@ $(document).ready(function () {
             });
             var totalfill = 0;
             $(".fill").remove();
+           
             $.each(filterData, function (index, value) {
                 totalfill += parseInt(value["發票開立張數"]);
+              
                 $('#showCSV').append(
-    
-                    '<li class="list-group-item align-items-center'+
-                        ' fill '+ value["公司統編"] + '">' + 
+                  
+                    '<td class="list-group-item" style="word-spacing:20px;text-align:left;padding-left:30%;'+
+                        ' fill '+ value["公司統編"] + '">'+
+                        
                     value["公司統編"] +
-                    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
+                    '&nbsp;'+
                              
                     value["公司名稱"] +
-                    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
+                    '&nbsp;'+
     
                               
                     value["發票開立月份"] +
-                    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+
+                    '&nbsp;'+'&nbsp;'+
                               
                     value["發票開立張數"] +
                              
-                    '</li>'
+                    '</td>'
+                    
                 );
     
             });
@@ -56,4 +60,3 @@ $(document).ready(function () {
 
 }); // end: of Ajax call
 });
-
