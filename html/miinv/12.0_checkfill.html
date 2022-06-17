@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>MiINV神資電子發票加值中心</title>
@@ -8,6 +7,8 @@
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
+    
 
     <link rel="stylesheet" href="./css/bootstrap-customize.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -129,11 +130,41 @@
                 <div class="box" >
                     <label for="number"><a style="color: red;">*</a>公司統一編號</label>
                     <input type="number" name="number" id="number">
-                    <button id="next5" type="button" class="btn btn-primary activity_button">NEXT</button>
+                    <input type="button" id="enter" name="register" value="註冊" >
+                   
                 </div>
             </div>
         </div>
     </div>
+    <div >
+        <h2>CSV File Data</h2>
+        <ul class="list-group" id="showCSV" >
+        
+        </ul>
+
+    </div>
+<!-- <script>     
+       let mysql=require('mysql');
+       
+       document.getElementById("enter").onclick = function(){
+
+            var id = document.getElementById("number").value;
+
+            var nid=document.createElement("nid");
+            var text_id = document.createTextNode(id);
+            nid.appendChild(text_id);
+
+            var tr=document.createElement("tr");
+            tr.appendChild(nid);
+            var table=document.getElementsByTagName("table")[0];
+            table.appendChild(tr);
+        };
+
+ 
+
+   
+
+</script>-->
     <script type="text/javascript " src="./js/footer.js "></script>
 
 </body>
